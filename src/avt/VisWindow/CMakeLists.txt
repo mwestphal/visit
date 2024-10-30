@@ -55,7 +55,7 @@ include_directories(
     ${VTK_INCLUDE_DIRS}
     ${OPENGL_INCLUDE_DIR})
 
-set(vtklibs VTK::FiltersModeling VTK::ImagingCore VTK::InteractionStyle)
+set(vtklibs VTK::FiltersModeling VTK::ImagingCore VTK::InteractionStyle VTK::RenderingAnnotation)
 
 #********************************* SERIAL ************************************
 target_link_libraries(avtviswindow_ser visitcommon avtview avtmath

@@ -38,7 +38,6 @@
 #include <vtkPointData.h>
 #include <vtkImageReslice.h>
 #include <vtkMatrix4x4.h>
-#include <vtkImageGaussianSmooth.h>
 
 #include <iostream>
 #include <limits>
